@@ -39,7 +39,6 @@
     
     [self.view addSubview:HUD];
 }
-
 #pragma mark - API call
 
 -(void)LoginAPICall
