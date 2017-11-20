@@ -25,7 +25,6 @@
     [super viewWillAppear:YES];
     [self.navigationController.interactivePopGestureRecognizer setDelegate:nil];
 }
-
 -(void)HudMethod
 {
     HUD = [[MBProgressHUD alloc] initWithView:self.view];
