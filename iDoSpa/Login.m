@@ -168,7 +168,6 @@
     NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
     return [emailTest evaluateWithObject:checkString];
 }
-
 #pragma mark - AlertMethods -- start
 
 -(void)doneAlert:(NSString *)Title Message:(NSString *)Message
