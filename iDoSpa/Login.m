@@ -267,7 +267,6 @@
                 andButtons:nil
      ];
 }
-
 - (void)FCAlertDoneButtonClicked:(FCAlertView *)alertView
 {
     NSLog(@"Done BTN Clicked");
